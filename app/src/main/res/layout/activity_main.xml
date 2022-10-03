@@ -73,6 +73,6 @@
         android:layout_height="wrap_content"
         android:layout_above="@+id/cb_ya"
         android:layout_toRightOf="@id/tv_saya_nyatakan"
-        android:entries="@array/arr_chances"
+        android:entries="@array/arr_chances"/>
 
 </RelativeLayout>
