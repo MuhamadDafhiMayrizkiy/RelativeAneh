@@ -45,10 +45,11 @@
         android:gravity="center"
         android:layout_centerInParent="true"/>
 
-    <Spinner
-        android:id="@+id/spn_ket"
+    <CheckBox
+        android:id="@+id/cb_ya"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+<<<<<<< HEAD
         android:layout_below="@+id/tv_cpr"
         android:gravity="center"
         android:layout_centerInParent="true"
@@ -59,13 +60,39 @@
         android:layout_height="wrap_content"
         android:text="ya"
         android:layout_alignParentBottom="true"/>
+=======
+        android:text="YA"
+        android:layout_alignParentBottom="true"/>
+
+>>>>>>> 64a520f25d4c90feb04310026a5111edbe76d1e0
     <CheckBox
         android:id="@+id/cb_tidak"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+<<<<<<< HEAD
         android android:text="tidak"
         android:layout_alignParentBottom="true"
         android:android:layout_toRightOf="@+id/cb_ya"
 
+=======
+        android:text="TIDAK"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/cb_ya"/>
+
+    <TextView
+        android:id="@+id/tv_saya_nyatakan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Saya menyakan data ini : "
+        android:layout_marginBottom="2dp"
+        android:layout_above="@+id/cb_ya"/>
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/cb_ya"
+        android:layout_toRightOf="@id/tv_saya_nyatakan"
+        android:entries="@array/arr_chances"/>
+>>>>>>> 64a520f25d4c90feb04310026a5111edbe76d1e0
 
 </RelativeLayout>

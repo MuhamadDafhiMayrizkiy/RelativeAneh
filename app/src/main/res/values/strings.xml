@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">Relative Aneh</string>
+<<<<<<< HEAD
     <string-array name="arr_kemungkinan">
         <item>Benar</item>
         <item>Mungkin Benar</item>
@@ -7,3 +8,14 @@
         <item>Salah</item>
     </string-array
 </resources>
+=======
+    <string-array name="arr_chances">
+        <item>Betul</item>
+        <item>Afa benar</item>
+        <item>Afa salah</item>
+        <item>Salah</item>
+    </string-array>
+
+</resources>
+
+>>>>>>> 64a520f25d4c90feb04310026a5111edbe76d1e0
