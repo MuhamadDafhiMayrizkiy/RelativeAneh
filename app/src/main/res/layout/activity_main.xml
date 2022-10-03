@@ -53,5 +53,19 @@
         android:gravity="center"
         android:layout_centerInParent="true"
         />
+    <CheckBox
+        android:id="@+id/cb_ya"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ya"
+        android:layout_alignParentBottom="true"/>
+    <CheckBox
+        android:id="@+id/cb_tidak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android android:text="tidak"
+        android:layout_alignParentBottom="true"
+        android:android:layout_toRightOf="@+id/cb_ya"
+
 
 </RelativeLayout>
